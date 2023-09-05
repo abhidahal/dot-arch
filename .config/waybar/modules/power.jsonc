@@ -1,0 +1,7 @@
+    "custom/power": {
+        "format": "{}",
+        "exec": "echo ; echo  logout",
+        "on-click": "wlogout -b 3 -c 0 -r 0 -L 680 -R 680 -T 360 -B 360 --protocol layer-shell",
+        "interval" : 86400, // once every day
+        "tooltip": true
+    },

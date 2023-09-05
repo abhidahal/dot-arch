@@ -1,0 +1,111 @@
+* {
+  background-image: none;
+  font-size: 20px;
+}
+
+window {
+  background-color: rgba(17, 17, 27, 0.85);
+  border: 1px solid rgba(83, 127, 231, 0.3);
+}
+
+button {
+  color: #537fe7;
+  background-color: rgba(24, 26, 38, 0.7);
+  outline-style: none;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 10%;
+  border-radius: 0px;
+  box-shadow: none;
+  text-shadow: none;
+  animation: gradient_f 20s ease-in infinite;
+}
+
+button:focus {
+  background-color: rgba(83, 127, 231, 0.3);
+
+  background-size: 25%;
+}
+
+button:hover {
+  background-color: rgba(83, 127, 231, 0.3);
+  background-size: 25%;
+}
+
+/* button:hover#lock { */
+/*   margin-right: 30px; */
+/*   margin-bottom: 30px; */
+/* } */
+/**/
+/* button:hover#logout { */
+/*   margin-right: 30px; */
+/*   margin-top: 30px; */
+/* } */
+/**/
+/* button:hover#shutdown { */
+/*   margin-left: 30px; */
+/*   margin-bottom: 30px; */
+/* } */
+/**/
+/* button:hover#reboot { */
+/*   margin-left: 30px; */
+/*   margin-top: 30px; */
+/* } */
+/**/
+/* button:hover#suspend { */
+/*   margin-right: 31px; */
+/*   margin-top: 30px; */
+/*   margin-bottom: 30px; */
+/* } */
+/**/
+/* button:hover#hibernate { */
+/*   margin-left: 30px; */
+/*   margin-top: 30px; */
+/*   margin-bottom: 30px; */
+/* } */
+/**/
+#lock {
+  background-image: image(
+    url("/usr/share/wlogout/icons/lock.png"),
+    url("/usr/local/share/wlogout/icons/lock.png")
+  );
+  border-bottom-left-radius: 50px;
+}
+
+#logout {
+  background-image: image(
+    url("/usr/share/wlogout/icons/logout.png"),
+    url("/usr/local/share/wlogout/icons/logout.png")
+  );
+  border-top-right-radius: 50px;
+}
+
+#shutdown {
+  background-image: image(
+    url("/usr/share/wlogout/icons/shutdown.png"),
+    url("/usr/local/share/wlogout/icons/shutdown.png")
+  );
+  border-top-left-radius: 50px;
+}
+
+#reboot {
+  background-image: image(
+    url("/usr/share/wlogout/icons/reboot.png"),
+    url("/usr/local/share/wlogout/icons/reboot.png")
+  );
+}
+
+#suspend {
+  background-image: image(
+    url("/usr/share/wlogout/icons/suspend.png"),
+    url("/usr/local/share/wlogout/icons/suspend.png")
+  );
+}
+
+#hibernate {
+  background-image: image(
+    url("/usr/share/wlogout/icons/hibernate.png"),
+    url("/usr/local/share/wlogout/icons/hibernate.png")
+  );
+  border-bottom-right-radius: 50px;
+}
